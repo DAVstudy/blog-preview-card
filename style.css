@@ -1,0 +1,119 @@
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/static/Figtree-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+html, body {
+  background: hsl(47, 88%, 63%);
+  font-family: 'Figtree', sans-serif;
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: white;
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ilustration {
+  height: 200px;
+  width: auto;
+  border-radius: 10px;
+  margin: 24px;
+}
+
+.box {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.label-blog {
+  max-width: fit-content;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  border-radius: 4px;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 4px 12px;
+  margin: 0px;
+}
+
+.date-published {
+  max-width: fit-content;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: hsl(0, 0%, 7%);
+  margin: 0px;
+}
+
+.text-title{
+  max-width: fit-content;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: hsl(0, 0%, 7%);
+  margin: 0px;
+}
+
+.text-description{
+  max-width: fit-content;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: hsl(0, 0%, 42%);
+  margin: 0px;
+}
+
+.avatar-box{
+  margin-top: 24px;
+  margin-left: 24px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar{
+  width: 32px;
+  height: auto;
+  margin-right: 12px;
+}
+
+.autor{
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: hsl(0, 0%, 7%);
+}
